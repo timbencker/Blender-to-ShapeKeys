@@ -5,7 +5,7 @@ Export your animated modifiers, GeoNodes, rigs, and more.
 
 ## Overview
 
-This Python script is a utility for 3D artists and game developers who need to transfer animations from Blender to various platforms.  
+This Python script is a utility for 3D artists, web and game developers who need to transfer animations from Blender to various platforms.  
 It transfers Blender-specific animations — like GeoNodes, armatures, bones — to more often supported animated shape keys.
 
 ## Supported Platforms
