@@ -1,12 +1,7 @@
 # Blender-to-ShapeKeys - Blender Animation Export Script
 
-Convert Blender animations to shape keys for use on other 3D platforms.
-Export your animated modifiers, GeoNodes, rigs, and more.
-
-## Overview
-
-This Python script is a utility for 3D artists, web and game developers who need to transfer animations from Blender to various platforms.  
-It transfers Blender-specific animations — like GeoNodes, armatures, bones — to more often supported animated shape keys.
+This Python script is a utility for 3D artists, web and game developers enabling export from Blender to other 3D packages.  
+Convert Blender-specific animations — like GeoNodes, Modifiers, Armatures — to more often supported animated shape keys.
 
 ## Supported Platforms
 
@@ -17,15 +12,15 @@ Useful for platforms and formats that support shape keys, like:
 
 ## Key Features
 
-- **Mesh State to Shape Key Transformation**: Convert various Blender-native mesh modifications such as GeoNodes, Modifiers, Armatures into animated shape keys.
-- **Set Stepsize**: Define the number of shape keys to generate, proportionate to the resulting mesh data size.
-- **Automated Keyframing**: Effortless insertion of keyframes.
-- **Non-Destructive Workflow**: The script operates on a duplicated object, leaving your original artwork untouched.
+- **Mesh State to Shape Keys**: Transfer Blender-native mesh modifications such as GeoNodes, Modifiers, Armatures.
+- **Set Stepsize**: Choose number of generated shape keys, proportionate to the resulting mesh data size.
+- **Automated Keyframing**: Effortless keyframe generation.
+- **Non-Destructive Workflow**: Generates a duplicated object, leaving your original artwork untouched.
 
 ## Limitations
 
 - Consistent Vertex Count Required: Animations must maintain a consistent vertex count for every frame.
-- Potential File Size Increase: Exports to GLTF or FBX may result in substantial file sizes.
+- File Size Increase: Exports to GLTF or FBX may result in substantial file sizes.
 - Consider Efficient Engine Solutions: Explore more efficient engine-specific solutions or formats where applicable.
 
 ## Installation & Usage
@@ -36,6 +31,6 @@ Useful for platforms and formats that support shape keys, like:
 
 ## Contribute & License
 
-Contributions and pull requests are welcome. This script is licensed under the MIT License.
+Contributions and pull requests are welcome. Licensed under MIT.
 
 **Author:** Tim Bencker (2023)
